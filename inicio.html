@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ristorante delizioso</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilo personalizado para las imágenes recuadradas */
+        .col img {
+            border: 2px solid #b82e2e; /* Establece el ancho y color del borde */
+            border-radius: 10px; /* Agrega un radio de borde para hacerlo más redondeado */
+            padding: 10px; /* Agrega un espacio de relleno alrededor de la imagen */
+        }
+    </style>
+
+</head>
+<body>
+    <header class="cabecera">
+        <nav>
+            <div class="logo">
+                <h1>Ristorante delizioso</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Descubre la auténtica pasta italiana</h2>
+        <p>Bienvenido a nuestro ristorante, donde cada plato cuenta una historia de tradición y sabor.</p>
+        <a href="#reservas" class="btn-reserva">Haz tu reserva</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Menú</h2>
+        <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/1.jpg" alt="Plato 1">
+                <p>Spaghetti alla Carbonara</p>
+            </div>
+        </div>
+        <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/2.jpg" alt="Plato 2">
+                <p>Ravioli al Tartufo</p>
+            </div>
+        </div>
+        <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/3.jpg" alt="Plato 3">
+                <p>Cannelloni Ricotta e Spinaci</p>
+            </div>
+        </div>
+            <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/4.jpg" alt="Plato 3">
+                <p>Tortellini alla Crema</p>
+            </div>
+        </div>
+        <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/5.jpg" alt="Plato 3">
+                <p> Saltimbocca alla Romana</p>
+            </div>
+        </div>
+        <div class="plato-tarjeta">
+            <div class="plato">
+                <img src="img/6.jpg" alt="Plato 3">
+                <p>Pappardelle con Salsa di Cinghiale</p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section id="nosotros" class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="parrafo-recuadrado">
+            <p>
+                ¡Bienvenidos al Ristorante delizioso! Desde 1985, hemos sido un faro de auténtica cocina italiana en el corazón de la ciudad. Nuestra historia es una mezcla de tradición y pasión por la gastronomía italiana que se refleja en cada plato que servimos.
+                Nuestra filosofía se basa en la autenticidad y la calidad. Cada plato es una expresión de nuestra dedicación a las recetas tradicionales italianas. Utilizamos ingredientes frescos y de la más alta calidad, seleccionados con cuidado para ofrecer sabores inigualables. Nuestra misión es crear experiencias culinarias que deleiten los sentidos y construyan recuerdos duraderos para todos nuestros comensales.
+                En Ristorante delizioso, no solo servimos platos excepcionales, sino que también ofrecemos un ambiente acogedor y hospitalario. Nuestro equipo está comprometido en brindarte un servicio excepcional para que te sientas como en casa desde el momento en que cruzas nuestras puertas.
+                Estamos orgullosos de llevar la rica tradición de la cocina italiana a tu mesa. Cada plato que preparamos cuenta una historia de amor por la comida y la cultura italiana. Nos esforzamos por mantener viva la esencia de Italia en cada bocado que servimos.
+                Gracias por ser parte de nuestra historia. Esperamos que tu visita a Ristorante delizioso sea una experiencia inolvidable y que nos permitas compartir contigo nuestro amor por la auténtica pasta italiana y los sabores que nos inspiran cada día.
+            </p>
+        </div>
+    </section>
+   <section id="galeria" class="galeria">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="img/ita1.jpg" class="img-fluid" alt="Imagen 1">
+            </div>
+            <div class="col">
+                <img src="img/ita2.jpg" class="img-fluid" alt="Imagen 2">
+            </div>
+            <div class="col">
+                <img src="img/ita3.jpg" class="img-fluid" alt="Imagen 3">
+            </div>
+            <div class="col">
+                <img src="img/ita4.jpg" class="img-fluid" alt="Imagen 4">
+            </div>
+            <div class="col">
+                <img src="img/its5.jpg" class="img-fluid" alt="Imagen 5">
+            </div>
+        </div>
+    </div>
+   </section>
+  <section id="reservas" class="reservas">
+            <h2>Reservas</h2>
+            <p>Para hacer una reserva o consultas, contáctanos a través de WhatsApp:</p>
+            <a href="https://api.whatsapp.com/send?phone=+5491157245914" target="_blank" class="btn-whatsapp">Reservar</a>
+        </section>
+        
+    
+    <footer>
+        <p>&copy; 2023 Ristorante delizioso</p>
+    </footer>
+</body>
+</html>
